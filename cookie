@@ -1,4 +1,4 @@
-hostname =api.m.jd.com,c.tieba.baidu.com, weibo.com,www.52pojie.cn, *.bilibili.com,*.video.qq.com*.rrys2019.com, *.rr.tv,wapside.189.cn,act.10010.com,i.meituan.com,m.client.10010.com,zt.wps.cn,pay.sc.weibo.com,api.weibo.cn
+hostname =api.m.jd.com,c.tieba.baidu.com, weibo.com,www.52pojie.cn, *.bilibili.com,*.video.qq.com*.rrys2019.com, *.rr.tv,wapside.189.cn,act.10010.com,i.meituan.com,m.client.10010.com,zt.wps.cn,pay.sc.weibo.com,api.weibo.cn, 110.43.90.61
 # NobyDa
 
 # 京东签到获取cookie
