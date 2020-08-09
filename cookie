@@ -1,4 +1,4 @@
-hostname =api.m.jd.com,c.tieba.baidu.com,www.52pojie.cn, *.bilibili.com,*.video.qq.com,act.10010.com,promotion.waimai.meituan.com,m.client.10010.com,tieba.baidu.com
+hostname =api.m.jd.com,c.tieba.baidu.com,www.52pojie.cn, *.bilibili.com,*.video.qq.com,act.10010.com,promotion.waimai.meituan.com,m.client.10010.com,tieba.baidu.com,api.weibo.cn
 # NobyDa
 
 # 京东签到获取cookie
@@ -26,3 +26,5 @@ https:\/\/www\.52pojie\.cn\/home\.php\?mod=space url script-request-header https
 
 #>贴吧
 ^https?:\/\/tieba\.baidu\.com\/?.? url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.cookie.js
+#>微博超话
+^https:\/\/api\.weibo\.cn\/2\/(cardlist|page\/button) url script-request-header https://raw.githubusercontent.com/toulanboy/scripts/master/weibo/weibotalk.cookie.js
