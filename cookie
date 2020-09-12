@@ -1,7 +1,7 @@
 hostname =api.m.jd.com,c.tieba.baidu.com,www.52pojie.cn, *.bilibili.com,*.video.qq.com,act.10010.com,promotion.waimai.meituan.com,m.client.10010.com,tieba.baidu.com,*.smzdm.com
 # NobyDa
 
-# 京东签到获取cookie
+#京东签到获取cookie
 https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
 # 爱奇艺获取cookie
