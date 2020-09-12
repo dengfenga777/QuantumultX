@@ -1,4 +1,4 @@
-hostname =api.m.jd.com,c.tieba.baidu.com,www.52pojie.cn, *.bilibili.com,*.video.qq.com,act.10010.com,promotion.waimai.meituan.com,m.client.10010.com,tieba.baidu.com
+hostname =api.m.jd.com,c.tieba.baidu.com,www.52pojie.cn, *.bilibili.com,*.video.qq.com,act.10010.com,promotion.waimai.meituan.com,m.client.10010.com,tieba.baidu.com,*.smzdm.com
 # NobyDa
 
 # 京东签到获取cookie
@@ -13,15 +13,9 @@ https:\/\/www\.52pojie\.cn\/home\.php\?mod=space url script-request-header https
 # 腾讯视频获取cookie
 ^https:\/\/access.video.qq.com\/user\/auth_refresh url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js
 ^https?:\/\/v.qq.com\/x\/bu\/mobile_checkin url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js
-# 人人视频获取cookie
-^https:\/\/api\.rr\.tv\/user\/profile url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.cookie.js
-# 中国联通 获取cookie
-^https:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
-^https:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
-^https:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo) url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
-# 美团外卖
-^https:\/\/promotion.waimai.meituan.com\/playcenter\/signIn\/entry url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.cookie.js
-^https:\/\/promotion.waimai.meituan.com\/playcenter\/signIn\/doaction url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.cookie.js
+
+#什么值得买
+^https:\/\/www\.smzdm\.com\/?.? url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/quanx/smzdm.cookie.js
 
 
 #>贴吧
